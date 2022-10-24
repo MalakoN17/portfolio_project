@@ -2,6 +2,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.navbar .up-menu {
+  background-color: red;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
