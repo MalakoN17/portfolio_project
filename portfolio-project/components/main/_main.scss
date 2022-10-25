@@ -1,0 +1,37 @@
+.main-container{
+    width: 100%;
+    text-align: center;
+
+    .inner-container{
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        // :root{
+        //     --opacityOne:1;
+        //     --opacityZero:0;
+        // }
+        // .image-container{
+        //     opacity: var(--opacityOne);
+
+        // }
+        // .image-container.scroll{
+        //     opacity: var(--opacityZero);
+        // }
+        .icons-container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+        }
+        .icon-container{
+            border-radius: 100%;
+            cursor: pointer;
+        }
+    }
+}
