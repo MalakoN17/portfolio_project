@@ -2,6 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.menu-title {
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+}
+
+.menu-title:hover {
+  background-color: rgba(107, 114, 128, 0.353);
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,9 +85,6 @@ html {
   }
   li {
     @apply cursor-pointer;
-  }
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   }
 }
 /*# sourceMappingURL=globals.css.map */

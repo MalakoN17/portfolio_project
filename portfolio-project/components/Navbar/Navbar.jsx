@@ -29,18 +29,18 @@ function Navbar() {
     <ArrowDownwardIcon />
   </IconButton>
   
-  <div className="menu-container mt-8 flex flex-col items-center gap-3">
+  <div className="menu-container  mt-8 flex flex-col items-center gap-3">
     <Link href="/" className="hover:bg-gray-500">
-      <h1>Home</h1>
+      <h1 className="menu-title mt-0 sm:mt-20">Home</h1>
     </Link>
     <Link href="/">
-      <h1>About</h1>
+      <h1 className="menu-title mt-0 sm:mt-20">About</h1>
     </Link>
     <Link href="/">
-      <h1>Skills</h1>
+      <h1 className="menu-title mt-0 sm:mt-20">Skills</h1>
     </Link>
     <Link href="/">
-      <h1>Project</h1>
+      <h1 className="menu-title mt-0 sm:mt-20">Project</h1>
     </Link>
   </div>
 </Dialog>

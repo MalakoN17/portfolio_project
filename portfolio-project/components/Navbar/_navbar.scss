@@ -1,5 +1,12 @@
 .navbar{
-    
-}
 
+}
+.menu-title{
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    &:hover{
+        background-color: rgba(107, 114, 128, 0.353);
+    }
+}
 

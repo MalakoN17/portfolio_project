@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React, {useState} from 'react'
+import Link from "next/link"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
@@ -16,7 +17,7 @@ function Main() {
 window.addEventListener('scroll', opacityImage)
 }
   return (
-    <div className='main-container h-screen'>
+    <div className='main-container h-screen dark:bg-neutral-600'>
         <div className='inner-container max-w-[1240px]'>
             <div>
                 <h1 className='py-4 text-gray-600'>
@@ -40,16 +41,15 @@ window.addEventListener('scroll', opacityImage)
                     <div className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <GitHubIcon />
                     </div>
-                    <div className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <Link href="mailto:Bennynagato17@gmail.com">
+                    <div href className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <MailOutlineIcon />
                     </div>
+                    </Link>
                     <div className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <ContactPageIcon />
                     </div>
                 </div>
-            </div>
-            <div className={scroll ? 'image-container scroll' : 'image-container'}>
-                <Image src='/../public/assets/images/me-removebg-preview.png' width="500px" height="550px"/>
             </div>
         </div>
 
