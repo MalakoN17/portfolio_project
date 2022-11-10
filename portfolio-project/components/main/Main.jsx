@@ -21,7 +21,7 @@ window.addEventListener('scroll', opacityImage)
         <div className='inner-container max-w-[1240px]'>
             <div>
                 <h1 className='py-4 text-white'>
-                    Hi, i'm <span className='text-[#000000]'>Malako Nagato</span>
+                    Hi, I'm <span className='text-[#000000]'>Malako Nagato</span>
                 </h1>
                 <h1 className='py-2 text-white'>
                     A Full-Stack Developer 
