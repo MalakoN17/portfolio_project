@@ -17,36 +17,31 @@ function Main() {
 window.addEventListener('scroll', opacityImage)
 }
   return (
-    <div className='main-container h-screen dark:bg-neutral-600'>
+    <div className='main-container h-screen'>
         <div className='inner-container max-w-[1240px]'>
             <div>
-                <h1 className='py-4 text-gray-600'>
-                    Hi, i'm <span className='text-[#339923]'>Malako Nagato</span>
+                <h1 className='py-4 text-white'>
+                    Hi, i'm <span className='text-[#000000]'>Malako Nagato</span>
                 </h1>
-                <h1 className='py-2 text-gray-600'>
+                <h1 className='py-2 text-white'>
                     A Full-Stack Developer 
                 </h1>
                 <p className='py-4 max-w-[70%] m-auto font-bold'>
-                    Lorem ipsum dolor, sit amet consectetur 
-                    adipisicing elit. Ad, atque nihil! Maiores 
-                    accusantium cum veniam odio dolores vel 
-                    quidem quod quo officiis ullam, aliquid 
-                    quisquam fugiat beatae? Officiis, optio 
-                    aspernatur?
+                    
                 </p>
                 <div className='icons-container max-w-[330px] py-4'>
-                    <div className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='icon-container rounded-full shadow-lg shadow-black bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <LinkedInIcon />
                     </div>
-                    <div className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='icon-container rounded-full shadow-lg shadow-black bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <GitHubIcon />
                     </div>
                     <Link href="mailto:Bennynagato17@gmail.com">
-                    <div href className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div href className='icon-container rounded-full shadow-lg shadow-black bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <MailOutlineIcon />
                     </div>
                     </Link>
-                    <div className='icon-container rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='icon-container rounded-full shadow-lg shadow-black bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <ContactPageIcon />
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Averia Serif Libre");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +9,7 @@
 }
 
 .menu-title:hover {
-  background-color: rgba(107, 114, 128, 0.353);
+  background-color: rgba(69, 102, 110, 0.734);
 }
 
 .header {
@@ -67,7 +67,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Raleway', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container {
+  background: #0093ff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0093ff), to(#326d7d));
+  background: linear-gradient(0deg, #0093ff 0%, #326d7d 100%);
 }
 
 @layer base {

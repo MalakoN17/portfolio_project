@@ -4,13 +4,16 @@
 
 @import '../components/Navbar/navbar','../components/Header/header',"../components/main/main";
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Averia Serif Libre');
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Raleway', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+.app-container{
+  background: rgb(0,147,255);
+background: linear-gradient(0deg, rgba(0,147,255,1) 0%, rgba(50,109,125,1) 100%);
+}
 @layer base {
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide

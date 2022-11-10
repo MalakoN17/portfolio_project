@@ -3,10 +3,9 @@ import Header from "../components/Header/Header";
 import {useState} from "react"
 
 function MyApp({ Component, pageProps }) {
-  const [darkMode, setDarkMode] = useState(false)
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <Header setDarkMode={setDarkMode}/>
+    <div className="app-container">
+      <Header/>
       <Component {...pageProps} />
     </div>
   );

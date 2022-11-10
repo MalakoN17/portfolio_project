@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Navbar from "../Navbar/Navbar";
-import Switch from '@mui/material/Switch'
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import FormControlLabel from '@mui/material/FormControlLabel';
-function Header({ setDarkMode }) {
-  const [darkModeLocal, setDarkModeLocal] = useState(false);
+function Header() {
 
   return (
     <div className="header fixed shadow-xl z-[100] p-4 ">
@@ -14,16 +10,8 @@ function Header({ setDarkMode }) {
         width="120"
         height="60"
       />
-      <div className="flex items-center gap-2">
-      <FormControlLabel control={<Switch defaultChecked color="default" />} label="Dark Mode" 
-          onClick={() => {
-            setDarkModeLocal(!darkModeLocal);
-            setDarkMode(!darkModeLocal);
-          }}
-        >
-          <DarkModeIcon />
-        </FormControlLabel>
-        <h5>Menu</h5>
+      <div className="flex items-center gap-2 p-2 rounded-md hover:bg-black hover:text-white">
+        <h5 className="text-xl">Menu</h5>
         <Navbar />
       </div>
     </div>
