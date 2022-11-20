@@ -10,7 +10,7 @@ function About() {
     Aos.init({ duration: 200 });
   }, []);
   return (
-    <div id="about" className="about-container md:h-screen">
+    <div id="about" className="about-container mt-48 sm:mt-0 md:h-screen">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 text-center sm:text-left">
           <p className="uppercase text-2xl tracking-widest text-[#ffffff] font-bold">
@@ -20,8 +20,9 @@ function About() {
           <p className="py-2 font-bold text-3xl text-white">
             Hi, I'm a Full-Stack developer and a graduate of "Career Tech"
             bootcamp. I like to learn new technologies, face challenges and
-            tasks. I bring creative thinking and attention to details to work teams. I am currently looking for a job as a junior
-            Full-Stack developer.
+            tasks. I bring creative thinking and attention to details to work
+            teams. I am currently looking for a job as a junior Full-Stack
+            developer.
           </p>
           <Link
             href="/Projects"
