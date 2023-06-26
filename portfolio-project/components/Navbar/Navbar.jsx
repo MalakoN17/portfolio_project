@@ -26,7 +26,16 @@ const Navbar = () => {
     };
     window.addEventListener('scroll', handleShadow);
   }, []);
-
+  const resumeURL = 'http://localhost:3000/CV.pdf'
+  const downloadCV = (url)=>{
+    const fileName = url.split('/').pop();
+    const aTag = document.createElement('a')
+    aTag.href = url;
+    aTag.setAttribute('download', fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  }
   return (
     <div
       style={{ backgroundColor: `${navBg}` }}
@@ -62,8 +71,8 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
+            <li onClick={()=>downloadCV(resumeURL)}  className='ml-10 text-sm uppercase hover:border-b'>
+              Resume
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>

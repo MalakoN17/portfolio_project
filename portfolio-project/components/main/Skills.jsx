@@ -12,7 +12,7 @@ import Sass from '../../public/assets/skils/sass.png'
 import ReactLogo from '../../public/assets/skils/react.png'
 import MaterialUi from '../../public/assets/skils/materialUi.png'
 import NodeJs from '../../public/assets/skils/node.png'
-import Python from '../../public/assets/skils/python.png'
+import Python from '../../public/assets/skils/python-logo.png'
 import Mongodb from '../../public/assets/skils/mongodb.png'
 import Vscode from '../../public/assets/skils/vsc.png'
 import Slack from '../../public/assets/skils/slack.png'
@@ -26,7 +26,7 @@ function Skils() {
   return (
     <div id='skills' className='w-full p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-white font-bold'>
+        <p className='section-title'>
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
@@ -38,7 +38,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>HTML</h3>
               </div>
             </div>
@@ -48,7 +48,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex  items-center justify-center'>
                 <h3>CSS</h3>
               </div>
             </div>
@@ -91,7 +91,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Firebase} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Firebase</h3>
               </div>
             </div>
@@ -101,7 +101,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Python} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Python</h3>
               </div>
             </div>
@@ -111,7 +111,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Express} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Express</h3>
               </div>
             </div>
@@ -121,7 +121,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Mongodb} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Mongodb</h3>
               </div>
             </div>
@@ -131,7 +131,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={NodeJs} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>NodeJs</h3>
               </div>
             </div>
@@ -144,7 +144,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Vscode} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Vscode</h3>
               </div>
             </div>
@@ -154,7 +154,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Slack} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Slack</h3>
               </div>
             </div>
@@ -164,7 +164,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Git} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Git</h3>
               </div>
             </div>
@@ -174,7 +174,7 @@ function Skils() {
               <div className='m-auto'>
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex items-center justify-center'>
                 <h3>Github</h3>
               </div>
             </div>

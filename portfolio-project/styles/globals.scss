@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '../components/Navbar/navbar','../components/Header/header',"../components/main/main";
+@import '../components/Navbar/navbar','../components/Header/header',"../components/main/main", "../components/main/About/about";
 
 @import url('https://fonts.googleapis.com/css?family=Averia Serif Libre');
 
@@ -11,8 +11,8 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 .app-container{
-  background: rgb(0,147,255);
-background: linear-gradient(0deg, rgba(0,147,255,1) 0%, rgba(50,109,125,1) 100%);
+//   background: rgb(0,147,255);
+// background: linear-gradient(0deg, rgba(0,147,255,1) 0%, rgba(50,109,125,1) 100%);
 }
 @layer base {
   body {
@@ -34,5 +34,15 @@ background: linear-gradient(0deg, rgba(0,147,255,1) 0%, rgba(50,109,125,1) 100%)
   li {
     @apply cursor-pointer
   }
-
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#0800ed] to-[#709dff] text-white
+  }
+  .section-title{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: #2570a5;
+}
 }
