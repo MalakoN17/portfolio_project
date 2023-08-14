@@ -25,11 +25,11 @@ function About() {
             developer.
           </p>
           <Link
-            href="/Projects"
+            href='/#projects'
             className="py-2 text-black underline cursor-pointer"
           >
             Check out some of my latest projects.
-          </Link>
+          </Link >
         </div>
         <div
           data-aos="flip-left"
